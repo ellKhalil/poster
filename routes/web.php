@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('binary/home');
+    return view('binary/pages/home');
+});
+
+Route::get('/', function () {
+    return view('binary/pages/about');
 });
