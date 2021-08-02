@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('binary/pages/about');
 });
+
+Route::get('/services', function () {
+    return view('binary/pages/sevices');
+});
+
+Route::get('/contact', function () {
+    return view('binary/pages/contact');
+});

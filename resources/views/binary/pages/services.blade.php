@@ -1,6 +1,6 @@
 @extends('binary.master.master_div')
 
-@section('name')
+@section('content')
     
 
     <!-- Page Content -->
