@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('binary/pages/home');
 });
 
-Route::get('/', function () {
+Route::get('/about', function () {
     return view('binary/pages/about');
 });

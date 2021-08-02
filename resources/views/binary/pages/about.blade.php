@@ -1,6 +1,7 @@
-@extends('binary.pages.about')
+@extends('binary.master.master_div')
 
 @section('content')
+
     <!-- Page Content -->
  <div class="page-heading header-text">
     <div class="container">
